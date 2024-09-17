@@ -1,15 +1,16 @@
-header a {
+a {
     text-decoration: none;
     color: var(--btn-text);
+    font-size: 1.2em;
 }
 
 #button {
     text-decoration: none;
     background-color: var(--btn-color);
-    padding: 1em 1.5em;
-    max-height: 8px;
-    border-radius: 12px;
+    padding: 0.8em 1.5em;    
+    border-radius: 1.5rem;
     transition: all ease 0.3s;
+    text-align: center;
 }
 
 #button:hover{
@@ -18,3 +19,4 @@ header a {
     border: 2px solid var(--btn-color);
     transform: scale(1.1);
 }
+

@@ -1,0 +1,37 @@
+.context{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 30px;
+}
+
+.context h1{
+    height: 2.2rem; 
+    text-align: center; 
+    color: var(--text);
+}
+
+.welcome{
+    font-size: 2rem;  
+}
+
+.baner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+    width: 100%;
+    background-image: url('../img/banner.webp');
+    border-radius: 1rem;
+}
+
+.banner{
+    width: 100%;
+    border-radius: 12px;
+    height: 50%;
+}
+.sesion{
+    display: flex;
+}

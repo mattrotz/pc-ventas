@@ -1,0 +1,28 @@
+.pieDePagina{
+    background-color: var(--bg-primary);
+    height: 8em;
+    display: flex;
+    width: 100%;    
+    margin: 3px 0px;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.footContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlinks{
+    width: 20%;
+}
+
+.socialmedia{
+    width: 20%;
+}
+
+footer ul {
+    list-style: none;
+}

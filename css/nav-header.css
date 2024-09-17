@@ -1,8 +1,11 @@
 .encabezado{
-    height: 3rem;
+    background-color: var(--bg-primary);
+    height: 8em;
     max-height: 4.5rem;
     display: flex;
     width: 100%;
+    margin-bottom: 3px;
+    border-radius: 12px;
 }
 
 .head-container{
@@ -14,9 +17,43 @@
 }
 
 .encabezado .container{
-    width: 20%;
     height: 100%;
     display: flex;
+    align-items: center;  
+    justify-content: center;  
+}
+
+.encabezado nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    width: 20%;
+
+}
+
+.contenedor-logo{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.left{
+    width: 35%;
+}
+
+.encabezado nav a{
+    margin-right: 3%;
+}
+
+.logo{
+    width: 100%;
+    height: 4.5rem;
+    margin: 0 0 0 1em;
+}
+
+.name{
+    color: var(--btn-text);
 }
