@@ -1,0 +1,22 @@
+.encabezado{
+    height: 3rem;
+    max-height: 4.5rem;
+    display: flex;
+    width: 100%;
+}
+
+.head-container{
+    width: 100%;
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.encabezado .container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

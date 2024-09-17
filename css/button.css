@@ -1,0 +1,20 @@
+header a {
+    text-decoration: none;
+    color: var(--btn-text);
+}
+
+#button {
+    text-decoration: none;
+    background-color: var(--btn-color);
+    padding: 1em 1.5em;
+    max-height: 8px;
+    border-radius: 12px;
+    transition: all ease 0.3s;
+}
+
+#button:hover{
+    background-color: var(--btn-color2);
+    color: var(--btn-text2);
+    border: 2px solid var(--btn-color);
+    transform: scale(1.1);
+}

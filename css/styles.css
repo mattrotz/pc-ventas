@@ -1,0 +1,15 @@
+@import url('nav-header.css');
+@import url('button.css');
+@import url('valores.css');
+
+body{
+    background-color: var(--bg-body);
+}
+
+section{
+    background-color: var(--bg-primary);
+    width: 96%;
+    height: 96vh;
+    padding: 1%;
+    border-radius: 12px;
+}
