@@ -1,10 +1,10 @@
-a {
+a,label {
     text-decoration: none;
     color: var(--btn-text);
     font-size: 1.2em;
 }
 
-#button {
+#button,.button {
     text-decoration: none;
     background-color: var(--btn-color);
     padding: 0.8em 1.5em;    
@@ -20,3 +20,9 @@ a {
     transform: scale(1.1);
 }
 
+.button:hover{
+    background-color: var(--btn-color2);
+    color: var(--btn-text2);
+    border: 2px solid var(--btn-color);
+    transform: scale(1.1);
+}
