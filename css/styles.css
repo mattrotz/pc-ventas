@@ -6,6 +6,7 @@
 @import url('footer.css');
 @import url('modal.css');
 @import url('catalogo.css');
+@import url('info.css');
 
 body{
     background-color: var(--bg-body);
