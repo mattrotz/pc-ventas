@@ -1,4 +1,4 @@
-#btn-modal{
+.button-modal{
     display: none;
 }
 
@@ -11,14 +11,14 @@
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 100%;
+    z-index: 9999;
     transition: scale .3s ease-in-out;
     @starting-style{
         scale: 0;
     }
 }
 
-#btn-modal:checked ~ .container-modal{
+.button-modal:checked ~ .container-modal{
     display: flex;
 }
 

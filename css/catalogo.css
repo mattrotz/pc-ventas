@@ -1,15 +1,19 @@
 #catalog{
-    width: 1200px;
-    max-width: 1200px;
-    padding: 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
+.container-catalog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .content{
-    padding: 20px;
     display: flex;
     flex-direction: row;
     background-color: var(--bg-modal);
@@ -20,8 +24,13 @@
 }
 
 .content p{
+    text-align: center;
     padding: 15px 0px;
     border-top: 1px solid #283747;
+}
+
+.content h2{
+    text-align: center;
 }
 
 .content label{

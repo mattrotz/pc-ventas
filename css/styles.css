@@ -11,9 +11,9 @@ body{
     background-color: var(--bg-body);
 }
 
-section{
+section,header,footer{
     background-color: var(--bg-primary);
-    width: 98%; 
+    width: 100%; 
     padding: 1%;
     border-radius: 12px;
 }
