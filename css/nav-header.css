@@ -1,4 +1,5 @@
 .encabezado{
+    max-width: 1200px;
     background-color: var(--bg-primary);
     height: 8em;
     max-height: 4.5rem;

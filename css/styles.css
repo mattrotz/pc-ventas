@@ -5,6 +5,7 @@
 @import url('socialmediabuttons.css');
 @import url('footer.css');
 @import url('modal.css');
+@import url('catalogo.css');
 
 body{
     background-color: var(--bg-body);
