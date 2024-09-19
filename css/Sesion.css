@@ -1,0 +1,60 @@
+#Sesion{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    min-height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--bg-modal);
+    width: 60%;
+}
+
+.change{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.sign-in form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    margin: 0 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    color: var(--btn-text);
+    height: 25px;
+    padding: 10px 0 0px;
+    background-color: var(--bg-primary);
+    border:none;
+    border-radius: 2px;
+    font-size: medium;
+}
+
+.function{
+    margin: 10px 0 0;
+}
+
+.function a:hover{
+    color: #dbdbdb;
+}
+
+.function button{
+    margin-top: 5px;
+}
