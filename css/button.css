@@ -30,3 +30,8 @@ button{
     border: 2px solid var(--btn-color);
     transform: scale(1.1);
 }
+
+
+.white-text{
+    color: var(--btn-text);
+}

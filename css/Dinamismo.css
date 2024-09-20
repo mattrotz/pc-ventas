@@ -1,0 +1,20 @@
+#sign-up{
+    display: none;
+}
+
+#sign-up:checked ~ .sign-up{
+    display: flex;
+    transition: all .3s ease-in-out ;
+
+    @starting-style{
+        scale: 0;
+    }
+}
+#sign-up:checked ~ .sign-in{
+    display: none;
+    transition: all .3s ease-in-out ;
+
+    @starting-style{
+        scale: 0;
+    }
+}

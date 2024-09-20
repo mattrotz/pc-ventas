@@ -14,6 +14,22 @@
     padding: 20px;
     background-color: var(--bg-modal);
     width: 60%;
+    transition: all .3s ease-in-out;
+
+    @starting-style{
+        scale: 0;
+    }
+}
+
+.sign-up{
+    display: none;
+    align-items: center;
+    min-width: 300px;
+    min-height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--bg-modal);
+    width: 60%;
 }
 
 .change{
@@ -23,6 +39,14 @@
 }
 
 .sign-in form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up form{
     height: 100%;
     display: flex;
     flex-direction: column;
